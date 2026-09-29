@@ -1,5 +1,5 @@
 st.sidebar.title("Actividad 7")
-st.sidebar.write("Esta es una app para la actividad 7")
+st.sidebar.write("Hanael Diaz, 3L, Facultad de Ciencias Quimicas")
 
 
 import streamlit as st
