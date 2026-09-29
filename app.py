@@ -9,9 +9,9 @@ temperatura = st.number_input(
     "Temperatura (°C)",
     value=23.0
 )
-if st.button("Evaluar"):
-if  (6.0 <= pH <= 8.0) and (18.0 <= temperatura <= 25.0):
+    if st.button("Evaluar"):
+        if  (6.0 <= pH <= 8.0) and (18.0 <= temperatura <= 25.0):
     resultado = "Aceptado"
-else
+else:
     resultado = "Rechazado"
 st.write(f"Resultado: {resultado}")
