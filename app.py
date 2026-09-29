@@ -15,13 +15,13 @@ temperatura = st.number_input(
 )
 
 if st.button("Evaluar"):
-    # Nivel 1 (4 espacios): dentro del botón
+
     if (6.0 <= pH <= 8.0) and (18.0 <= temperatura <= 25.0):
-        # Nivel 2 (8 espacios): dentro del primer if
+
         resultado = "Aceptado"
     else:
-        # Nivel 2 (8 espacios): dentro del else
+
         resultado = "Rechazado"
     
-    # Nivel 1 (4 espacios): al nivel del botón
+
     st.write(f"Resultado: {resultado}")
